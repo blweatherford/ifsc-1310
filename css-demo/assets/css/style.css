@@ -9,7 +9,11 @@ html {
   box-sizing: inherit;
 }
 
-
+/* ---------------Responsive Images----------------- */
+img{
+  max-width:100%;
+  height:auto;
+}
 
 .container{
       width:70vw;
@@ -23,7 +27,8 @@ body {
   line-height: 1.5;
 }
 header.primary {
-  background: #7D17FA;
+  background: #31FA10;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   text-align: center;
   color: #ffffff;
   text-shadow: 2px 2px #000000;
@@ -90,7 +95,7 @@ header.primary nav a:active {
 }
 
 #intro h2{
-      color:#A709E3;
+      color:#FFFD03;
 }
 
 #intro p{
@@ -103,15 +108,82 @@ header.primary nav a:active {
       justify-content:space-between;
 }
 
+#content article.post{
+  width:30%;
+  box-shadow:0 4px 8px rgba(0,0,0,.4);
+  padding:.7em;
+  font-size:.7rem;
+  border-radius:10px;
+  transition:.5s;
+}
 
+#content article.post:hover{
+  box-shadow:0 8px 16px rgba(0,0,0,.4);
+}
 
+article.post figure{
+  margin:0;
+}
 
+article.post time, article.post figcaption, article.post .post-meta{
+  font-size:.8em;
+  text-transform:uppercase;
+  color:#c0c0c0;
+}
 
+article.post img{
+  border-radius:6px;
+}
 
+article.post a:link, article.post a:visited{
+  color:#3b638b;
+}
 
+article.post a:hover, article.post a:active{
+ text-decoration:none;
+}
 
+/* Attribute Selectors */
+aside[role="complementary"]{
+  background-color:#03FB96;
+  color:#fff;
+  padding:2.2rem;
+}
 
+aside .container{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
 
+aside article.widget{
+  width:45%;
+}
+
+aside a.read-more:link {
+  color:white;
+  display:block;
+  margin-top:10px;
+}
+
+aside article.widget footer{
+  display:none;
+}
+
+#colophon {
+  background: #2EFA0F;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+#colophon h6{
+  padding:20px;
+  margin:0;
+  text-align:center;
+  color:#fff;
+  font-size:.7rem;
+  text-transform:uppercase;
+  text-shadow:1px 1px #000000;
+}
 
 
 
