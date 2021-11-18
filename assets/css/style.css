@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background: #222;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.nav {
+    width: 80%;
+}
+
+header {
+    background: #55d6aa;
+}
+
+nav ul.main {
+    margin: 0;
+    list-style: none;
+}
+
+h2 {
+    margin-top: 0;
+}
+
