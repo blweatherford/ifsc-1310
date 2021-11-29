@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background: #222;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lucida Console" monospace;
     font-weight: 300;
 }
 
@@ -22,3 +22,13 @@ h2 {
     margin-top: 0;
 }
 
+section {
+    background: #53ED8E;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 16px;
+}
+
+p {
+    text-indent: 3%;
+}
