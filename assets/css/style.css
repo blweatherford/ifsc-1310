@@ -13,7 +13,7 @@ header {
     background: #55d6aa;
 }
 
-nav ul.main {
+.main {
     margin: 0;
     list-style: none;
 }
